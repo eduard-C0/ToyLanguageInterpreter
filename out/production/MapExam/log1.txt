@@ -1,0 +1,1350 @@
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (VarDeclaration{name='x', type=int};(x=17;print(x)))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (x=17;print(x))  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (x=17;print(x))  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) print(x) x=17  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) print(x) x=17  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) print(x)  
+Sym Table: x=17  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) print(x)  
+Sym Table: x=17  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x)))  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x)))  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x))  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x))  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x) x=17  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x) x=17  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x)  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x)  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: x=17  
+Output Console: [17, 17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (VarDeclaration{name='x', type=int};(x=17;print(x)))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (x=17;print(x))  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (x=17;print(x))  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) print(x) x=17  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) print(x) x=17  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) print(x)  
+Sym Table: x=17  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) print(x)  
+Sym Table: x=17  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x)))  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x)))  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (x=17;print(x))  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (x=17;print(x))  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: print(x) x=17  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: print(x) x=17  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: print(x)  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: print(x)  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack:  
+Sym Table: x=17  
+Output Console: [17, 17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (VarDeclaration{name='x', type=int};(x=17;print(x)))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (x=17;print(x))  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (x=17;print(x))  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) print(x) x=17  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) print(x) x=17  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) print(x)  
+Sym Table: x=17  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) print(x)  
+Sym Table: x=17  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x)))  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x)))  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x))  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x))  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x) x=17  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x) x=17  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x)  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x)  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: x=17  
+Output Console: [17, 17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (VarDeclaration{name='x', type=int};(x=17;print(x)))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (x=17;print(x))  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (x=17;print(x))  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) print(x) x=17  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) print(x) x=17  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) print(x)  
+Sym Table: x=17  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) print(x)  
+Sym Table: x=17  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x)))  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x)))  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x))  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x))  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x) x=17  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x) x=17  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x)  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x)  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: x=17  
+Output Console: [17, 17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (VarDeclaration{name='x', type=int};(x=17;print(x)))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (x=17;print(x))  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (x=17;print(x))  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) print(x) x=17  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) print(x) x=17  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) print(x)  
+Sym Table: x=17  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) print(x)  
+Sym Table: x=17  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x)))  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x)))  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x))  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x))  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x) x=17  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x) x=17  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x)  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x)  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: x=17  
+Output Console: [17, 17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (VarDeclaration{name='x', type=int};(x=17;print(x)))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (x=17;print(x))  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) (x=17;print(x))  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) print(x) x=17  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) print(x) x=17  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) print(x)  
+Sym Table: x=17  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x))) print(x)  
+Sym Table: x=17  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x)))  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x)))  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x))  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x))  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x) x=17  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x) x=17  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x)  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x)  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: x=17  
+Output Console: [17, 17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x)))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x)))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x))  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x))  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x) x=17  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x) x=17  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x)  
+Sym Table: x=17  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x)  
+Sym Table: x=17  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x)))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x))  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x))  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x) x=17  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x) x=17  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x)  
+Sym Table: x=17  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x)  
+Sym Table: x=17  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=17;print(x)))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x))  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=17;print(x))  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x) x=17  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x) x=17  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x)  
+Sym Table: x=17  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x)  
+Sym Table: x=17  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='x', type=int}
+x=17
+print(x)
+
+ 
+Sym Table: null 
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='x', type=int}
+x=17
+print(x)
+
+ 
+Sym Table: null 
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='x', type=int}
+x=17
+print(x)
+
+ 
+Sym Table: null 
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: x=17
+print(x)
+
+ 
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: x=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: x=17
+print(x)
+
+ 
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: x=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: x=17
+print(x)
+ 
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: x=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: x=17
+print(x)
+ 
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: x=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(x)
+ 
+Sym Table: x=17  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: x=17 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(x)
+ 
+Sym Table: x=17  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: x=17 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: x=17  
+Output Console: [17] 
+File Table:  
+Heap:  
+StackOfSymTable: x=17 
+
+ProceduresTable: 
+

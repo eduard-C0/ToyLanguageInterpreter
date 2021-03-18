@@ -1,0 +1,531 @@
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='v', type=int};(v=20;(for( v=0; v<3; v=v+1 ) 
+ Fork((print(v);v=v+1));print(v*10))))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v=20;(for( v=0; v<3; v=v+1 ) 
+ Fork((print(v);v=v+1));print(v*10))) VarDeclaration{name='v', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v=20;(for( v=0; v<3; v=v+1 ) 
+ Fork((print(v);v=v+1));print(v*10))) VarDeclaration{name='v', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v=20;(for( v=0; v<3; v=v+1 ) 
+ Fork((print(v);v=v+1));print(v*10)))  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v=20;(for( v=0; v<3; v=v+1 ) 
+ Fork((print(v);v=v+1));print(v*10)))  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (for( v=0; v<3; v=v+1 ) 
+ Fork((print(v);v=v+1));print(v*10)) v=20  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (for( v=0; v<3; v=v+1 ) 
+ Fork((print(v);v=v+1));print(v*10)) v=20  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (for( v=0; v<3; v=v+1 ) 
+ Fork((print(v);v=v+1));print(v*10))  
+Sym Table: v=20  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (for( v=0; v<3; v=v+1 ) 
+ Fork((print(v);v=v+1));print(v*10))  
+Sym Table: v=20  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) for( v=0; v<3; v=v+1 ) 
+ Fork((print(v);v=v+1))  
+Sym Table: v=20  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) for( v=0; v<3; v=v+1 ) 
+ Fork((print(v);v=v+1))  
+Sym Table: v=20  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (v=0;(While (v<3)(Fork((print(v);v=v+1));v=v+1)))  
+Sym Table: v=20  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (v=0;(While (v<3)(Fork((print(v);v=v+1));v=v+1)))  
+Sym Table: v=20  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1)) v=0  
+Sym Table: v=20  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1)) v=0  
+Sym Table: v=20  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1))  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1))  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1)) (Fork((print(v);v=v+1));v=v+1)  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1)) (Fork((print(v);v=v+1));v=v+1)  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1)) v=v+1 Fork((print(v);v=v+1))  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1)) v=v+1 Fork((print(v);v=v+1))  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1)) v=v+1  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (print(v);v=v+1)  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1)) v=v+1  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (print(v);v=v+1)  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1))  
+Sym Table: v=1  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: v=v+1 print(v)  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1))  
+Sym Table: v=1  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: v=v+1 print(v)  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1)) (Fork((print(v);v=v+1));v=v+1)  
+Sym Table: v=1  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: v=v+1  
+Sym Table: v=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1)) (Fork((print(v);v=v+1));v=v+1)  
+Sym Table: v=1  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: v=v+1  
+Sym Table: v=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1)) v=v+1 Fork((print(v);v=v+1))  
+Sym Table: v=1  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack:  
+Sym Table: v=1  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1)) v=v+1 Fork((print(v);v=v+1))  
+Sym Table: v=1  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1)) v=v+1  
+Sym Table: v=1  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (print(v);v=v+1)  
+Sym Table: v=1  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1)) v=v+1  
+Sym Table: v=1  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (print(v);v=v+1)  
+Sym Table: v=1  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1))  
+Sym Table: v=2  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: v=v+1 print(v)  
+Sym Table: v=1  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1))  
+Sym Table: v=2  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: v=v+1 print(v)  
+Sym Table: v=1  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1)) (Fork((print(v);v=v+1));v=v+1)  
+Sym Table: v=2  
+Output Console: [0, 1] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: v=v+1  
+Sym Table: v=1  
+Output Console: [0, 1] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1)) (Fork((print(v);v=v+1));v=v+1)  
+Sym Table: v=2  
+Output Console: [0, 1] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: v=v+1  
+Sym Table: v=1  
+Output Console: [0, 1] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1)) v=v+1 Fork((print(v);v=v+1))  
+Sym Table: v=2  
+Output Console: [0, 1] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack:  
+Sym Table: v=2  
+Output Console: [0, 1] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1)) v=v+1 Fork((print(v);v=v+1))  
+Sym Table: v=2  
+Output Console: [0, 1] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1)) v=v+1  
+Sym Table: v=2  
+Output Console: [0, 1] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (print(v);v=v+1)  
+Sym Table: v=2  
+Output Console: [0, 1] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1)) v=v+1  
+Sym Table: v=2  
+Output Console: [0, 1] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (print(v);v=v+1)  
+Sym Table: v=2  
+Output Console: [0, 1] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1))  
+Sym Table: v=3  
+Output Console: [0, 1] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: v=v+1 print(v)  
+Sym Table: v=2  
+Output Console: [0, 1] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) (While (v<3)(Fork((print(v);v=v+1));v=v+1))  
+Sym Table: v=3  
+Output Console: [0, 1] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: v=v+1 print(v)  
+Sym Table: v=2  
+Output Console: [0, 1] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)  
+Sym Table: v=3  
+Output Console: [0, 1, 2] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: v=v+1  
+Sym Table: v=2  
+Output Console: [0, 1, 2] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)  
+Sym Table: v=3  
+Output Console: [0, 1, 2] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: v=v+1  
+Sym Table: v=2  
+Output Console: [0, 1, 2] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: v=3  
+Output Console: [0, 1, 2, 30] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack:  
+Sym Table: v=3  
+Output Console: [0, 1, 2, 30] 
+File Table:  
+Heap:  
+

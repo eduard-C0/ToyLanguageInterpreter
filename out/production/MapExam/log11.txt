@@ -1,0 +1,144 @@
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='a', type=int};(VarDeclaration{name='b', type=int};(a=2+;(b=a+1;print(b)))))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='b', type=int};(a=2+;(b=a+1;print(b)))) VarDeclaration{name='a', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='b', type=int};(a=2+;(b=a+1;print(b)))) VarDeclaration{name='a', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='b', type=int};(a=2+;(b=a+1;print(b))))  
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='b', type=int};(a=2+;(b=a+1;print(b))))  
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (a=2+;(b=a+1;print(b))) VarDeclaration{name='b', type=int}  
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (a=2+;(b=a+1;print(b))) VarDeclaration{name='b', type=int}  
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (a=2+;(b=a+1;print(b)))  
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (a=2+;(b=a+1;print(b)))  
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (b=a+1;print(b)) a=2+  
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (b=a+1;print(b)) a=2+  
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (b=a+1;print(b))  
+Sym Table: a=2 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (b=a+1;print(b))  
+Sym Table: a=2 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(b) b=a+1  
+Sym Table: a=2 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(b) b=a+1  
+Sym Table: a=2 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(b)  
+Sym Table: a=2 b=3  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(b)  
+Sym Table: a=2 b=3  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: a=2 b=3  
+Output Console: [3] 
+File Table:  
+Heap:  
+

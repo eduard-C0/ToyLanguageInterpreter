@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="CENTER" hgap="5.0" style="-fx-background-color: grey; -fx-border-color: black;" vgap="5.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.GUIController.Run">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="363.0" minWidth="10.0" prefWidth="211.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="219.0" minWidth="10.0" prefWidth="202.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="398.0" minWidth="10.0" prefWidth="315.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="410.0" minWidth="10.0" prefWidth="287.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="217.0" minHeight="10.0" prefHeight="203.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="58.0" minHeight="10.0" prefHeight="32.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <Button fx:id="runAnotherProgramButton" alignment="CENTER" mnemonicParsing="false" onAction="#BackToMenu" prefHeight="25.0" prefWidth="603.0" style="-fx-background-color: grey; -fx-border-color: black;" text="Run another program" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+        <Button fx:id="runOneStepButton" alignment="CENTER" mnemonicParsing="false" onAction="#handleRunOneStep" prefHeight="25.0" prefWidth="200.0" style="-fx-background-color: grey; -fx-border-color: black;" text="Run one step" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+        <TableView fx:id="heapTableView" prefHeight="398.0" prefWidth="189.0" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+            <columns>
+                <TableColumn fx:id="heapAddressColumn" prefWidth="52.0" style="-fx-border-color: black; -fx-background-color: white;" text="Address" />
+                <TableColumn fx:id="heapValueColumn" prefWidth="143.0" style="-fx-border-color: black;" text="Value" />
+            </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+        </TableView>
+        <ListView fx:id="idsListView" onMouseClicked="#GuiSelectProgram" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: balck;" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+        <ListView fx:id="executionStackListView" prefHeight="631.0" prefWidth="315.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+        <Label prefHeight="17.0" prefWidth="86.0" text="Execution stack" textFill="WHITE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+        <ListView fx:id="outListView" prefHeight="631.0" prefWidth="397.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+        <Label text="Out" textFill="WHITE" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+        <Label text="Program states" textFill="WHITE" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+        <Label text="Heap" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+        <ListView fx:id="fileTableListView" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+        <Label text="File table" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+        <TableView fx:id="symbolsTableView" prefHeight="398.0" prefWidth="170.0" style="-fx-border-color: black;" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+            <columns>
+                <TableColumn fx:id="symbolsTableNameColumn" prefWidth="84.0" style="-fx-border-color: black;" text="Name" />
+                <TableColumn fx:id="symbolsTableValueColumn" prefWidth="120.0" style="-fx-border-color: black;" text="Value" />
+            </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+        </TableView>
+        <Label text="Symbols table" textFill="WHITE" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+        <Label fx:id="numberOfProgramStatesLabel" text="states: 0" textFill="WHITE" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+      <TableView fx:id="ProcedureTable" prefHeight="200.0" prefWidth="315.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+        <columns>
+          <TableColumn fx:id="ProcedureName" prefWidth="103.0" text="Name" />
+          <TableColumn fx:id="ProcedureVariables" prefWidth="101.0" text="Variables" />
+            <TableColumn fx:id="ProcedureStatemente" prefWidth="110.0" text="Statement" />
+        </columns>
+      </TableView>
+      <TableView fx:id="LatchTable" prefHeight="203.0" prefWidth="279.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+        <columns>
+          <TableColumn fx:id="LatchVar" prefWidth="144.0" text="Variable" />
+          <TableColumn fx:id="LatchExp" prefWidth="142.0" text="Expression" />
+        </columns>
+      </TableView>
+    </children>
+    <padding>
+        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+    </padding>
+</GridPane>

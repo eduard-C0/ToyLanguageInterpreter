@@ -1,0 +1,4852 @@
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='v', type=int}
+v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='v', type=int}
+v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='v', type=int}
+v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 2 
+Exe Stack: v=v-1
+v=v-1
+print(v)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 2 
+Exe Stack: v=v-1
+v=v-1
+print(v)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(10)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 2 
+Exe Stack: v=v-1
+v=v-1
+print(v)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(10)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 2 
+Exe Stack: v=v-1
+v=v-1
+print(v)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(10)
+Wait(9)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 2 
+Exe Stack: v=v-1
+print(v)
+
+ 
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(10)
+Wait(9)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 2 
+Exe Stack: v=v-1
+print(v)
+
+ 
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(10)
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 2 
+Exe Stack: v=v-1
+print(v)
+ 
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(10)
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 2 
+Exe Stack: v=v-1
+print(v)
+ 
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(9)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 2 
+Exe Stack: print(v)
+ 
+Sym Table: v=8  
+Output Console: [10] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(9)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 2 
+Exe Stack: print(v)
+ 
+Sym Table: v=8  
+Output Console: [10] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(9)
+Wait(8)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 2 
+Exe Stack:  
+Sym Table: v=8  
+Output Console: [10, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(9)
+Wait(8)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(9)
+ 
+Sym Table: v=10  
+Output Console: [10, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(9)
+ 
+Sym Table: v=10  
+Output Console: [10, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(8)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(8)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(8)
+Wait(7)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(8)
+Wait(7)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(8)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(8)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(7)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(7)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(7)
+Wait(6)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(7)
+Wait(6)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(7)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(7)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(6)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(6)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(6)
+Wait(5)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(6)
+Wait(5)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(6)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(6)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(5)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(5)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(5)
+Wait(4)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(5)
+Wait(4)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(5)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(5)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(4)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(4)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(4)
+Wait(3)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(4)
+Wait(3)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(4)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(4)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(3)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(3)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(3)
+Wait(2)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(3)
+Wait(2)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(3)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(3)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(2)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(2)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(2)
+Wait(1)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(2)
+Wait(1)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(2)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(2)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(1)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(1)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(1)
+Wait(0)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(1)
+Wait(0)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(1)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(1)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(0)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(0)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1, 100] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: VarDeclaration{name='v', type=int}
+v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: VarDeclaration{name='v', type=int}
+v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: VarDeclaration{name='v', type=int}
+v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 4 
+Exe Stack: v=v-1
+v=v-1
+print(v)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 4 
+Exe Stack: v=v-1
+v=v-1
+print(v)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Wait(10)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 4 
+Exe Stack: v=v-1
+v=v-1
+print(v)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Wait(10)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 4 
+Exe Stack: v=v-1
+v=v-1
+print(v)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(v*10)
+print(10)
+Wait(9)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 4 
+Exe Stack: v=v-1
+print(v)
+
+ 
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(v*10)
+print(10)
+Wait(9)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 4 
+Exe Stack: v=v-1
+print(v)
+
+ 
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(10)
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 4 
+Exe Stack: v=v-1
+print(v)
+ 
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(10)
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 4 
+Exe Stack: v=v-1
+print(v)
+ 
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Wait(9)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 4 
+Exe Stack: print(v)
+ 
+Sym Table: v=8  
+Output Console: [10] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Wait(9)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 4 
+Exe Stack: print(v)
+ 
+Sym Table: v=8  
+Output Console: [10] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(v*10)
+print(9)
+Wait(8)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 4 
+Exe Stack:  
+Sym Table: v=8  
+Output Console: [10, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(v*10)
+print(9)
+Wait(8)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(9)
+ 
+Sym Table: v=10  
+Output Console: [10, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(9)
+ 
+Sym Table: v=10  
+Output Console: [10, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Wait(8)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Wait(8)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(v*10)
+print(8)
+Wait(7)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(v*10)
+print(8)
+Wait(7)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(8)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(8)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Wait(7)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Wait(7)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(v*10)
+print(7)
+Wait(6)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(v*10)
+print(7)
+Wait(6)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(7)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(7)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Wait(6)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Wait(6)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(v*10)
+print(6)
+Wait(5)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(v*10)
+print(6)
+Wait(5)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(6)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(6)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Wait(5)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Wait(5)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(v*10)
+print(5)
+Wait(4)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(v*10)
+print(5)
+Wait(4)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(5)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(5)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Wait(4)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Wait(4)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(v*10)
+print(4)
+Wait(3)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(v*10)
+print(4)
+Wait(3)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(4)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(4)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Wait(3)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Wait(3)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(v*10)
+print(3)
+Wait(2)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(v*10)
+print(3)
+Wait(2)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(3)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(3)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Wait(2)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Wait(2)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(v*10)
+print(2)
+Wait(1)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(v*10)
+print(2)
+Wait(1)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(2)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(2)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Wait(1)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Wait(1)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(v*10)
+print(1)
+Wait(0)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(v*10)
+print(1)
+Wait(0)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(1)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(1)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Wait(0)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: Wait(0)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack: print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 3 
+Exe Stack:  
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1, 100] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='v', type=int}
+v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='v', type=int}
+v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='v', type=int}
+v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 2 
+Exe Stack: v=v-1
+v=v-1
+print(v)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 2 
+Exe Stack: v=v-1
+v=v-1
+print(v)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(10)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 2 
+Exe Stack: v=v-1
+v=v-1
+print(v)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(10)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 2 
+Exe Stack: v=v-1
+v=v-1
+print(v)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(10)
+Wait(9)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 2 
+Exe Stack: v=v-1
+print(v)
+
+ 
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(10)
+Wait(9)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 2 
+Exe Stack: v=v-1
+print(v)
+
+ 
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(10)
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 2 
+Exe Stack: v=v-1
+print(v)
+ 
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(10)
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 2 
+Exe Stack: v=v-1
+print(v)
+ 
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(9)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 2 
+Exe Stack: print(v)
+ 
+Sym Table: v=8  
+Output Console: [10] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(9)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 2 
+Exe Stack: print(v)
+ 
+Sym Table: v=8  
+Output Console: [10] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(9)
+Wait(8)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 2 
+Exe Stack:  
+Sym Table: v=8  
+Output Console: [10, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(9)
+Wait(8)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(9)
+ 
+Sym Table: v=10  
+Output Console: [10, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(9)
+ 
+Sym Table: v=10  
+Output Console: [10, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(8)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(8)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(8)
+Wait(7)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(8)
+Wait(7)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(8)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(8)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(7)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(7)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(7)
+Wait(6)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(7)
+Wait(6)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(7)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(7)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(6)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(6)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(6)
+Wait(5)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(6)
+Wait(5)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(6)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(6)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(5)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(5)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(5)
+Wait(4)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(5)
+Wait(4)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(5)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(5)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(4)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(4)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(4)
+Wait(3)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(4)
+Wait(3)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(4)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(4)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(3)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(3)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(3)
+Wait(2)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(3)
+Wait(2)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(3)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(3)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(2)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(2)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(2)
+Wait(1)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(2)
+Wait(1)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(2)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(2)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(1)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(1)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(1)
+Wait(0)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(1)
+Wait(0)
+
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(1)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(1)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(0)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(0)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: v=10  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1, 100] 
+File Table:  
+Heap:  
+LockTable: 
+SemaphoreTable: 
+LatchTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='v', type=int}
+v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: null 
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='v', type=int}
+v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: null 
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='v', type=int}
+v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: null 
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: v=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: v=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: v=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: v=10
+Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: v=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: v=10 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: v=10 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: v=10 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Fork((v=v-1;(v=v-1;print(v))))
+Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: v=10 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: v=10 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: v=v-1
+v=v-1
+print(v)
+
+ 
+Sym Table: null 
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: v=10 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(10)
+print(v*10)
+
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: v=10 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: v=v-1
+v=v-1
+print(v)
+
+ 
+Sym Table: null 
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: v=10 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(10)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: v=10 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: v=v-1
+v=v-1
+print(v)
+
+ 
+Sym Table: null 
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: v=10 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(10)
+print(v*10)
+ 
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: v=10 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: v=v-1
+v=v-1
+print(v)
+
+ 
+Sym Table: null 
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: v=10 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(10)
+Wait(9)
+
+ 
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: v=9 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: v=v-1
+print(v)
+
+ 
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: v=9 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(10)
+Wait(9)
+
+ 
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: v=9 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: v=v-1
+print(v)
+
+ 
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: v=9 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(10)
+ 
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: v=9 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: v=v-1
+print(v)
+ 
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: v=9 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(10)
+ 
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: v=9 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: v=v-1
+print(v)
+ 
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: v=9 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(9)
+print(v*10)
+ 
+Sym Table: v=8  
+Output Console: [10] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: print(v)
+ 
+Sym Table: v=8  
+Output Console: [10] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(9)
+print(v*10)
+ 
+Sym Table: v=8  
+Output Console: [10] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: print(v)
+ 
+Sym Table: v=8  
+Output Console: [10] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(9)
+Wait(8)
+
+ 
+Sym Table: v=8  
+Output Console: [10, 8] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack:  
+Sym Table: v=8  
+Output Console: [10, 8] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(9)
+Wait(8)
+
+ 
+Sym Table: v=8  
+Output Console: [10, 8] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(9)
+ 
+Sym Table: v=8  
+Output Console: [10, 8] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(9)
+ 
+Sym Table: v=8  
+Output Console: [10, 8] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(8)
+print(v*10)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(8)
+print(v*10)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(8)
+Wait(7)
+
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(8)
+Wait(7)
+
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(8)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(8)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(7)
+print(v*10)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(7)
+print(v*10)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(7)
+Wait(6)
+
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(7)
+Wait(6)
+
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(7)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(7)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(6)
+print(v*10)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(6)
+print(v*10)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(6)
+Wait(5)
+
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(6)
+Wait(5)
+
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(6)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(6)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(5)
+print(v*10)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(5)
+print(v*10)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(5)
+Wait(4)
+
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(5)
+Wait(4)
+
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(5)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(5)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(4)
+print(v*10)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(4)
+print(v*10)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(4)
+Wait(3)
+
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(4)
+Wait(3)
+
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(4)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(4)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(3)
+print(v*10)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(3)
+print(v*10)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(3)
+Wait(2)
+
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(3)
+Wait(2)
+
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(3)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(3)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(2)
+print(v*10)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(2)
+print(v*10)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(2)
+Wait(1)
+
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(2)
+Wait(1)
+
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(2)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(2)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(1)
+print(v*10)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(1)
+print(v*10)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(1)
+Wait(0)
+
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+print(1)
+Wait(0)
+
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(1)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(1)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(0)
+print(v*10)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: Wait(0)
+print(v*10)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)
+ 
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: v=8  
+Output Console: [10, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1, 80] 
+File Table:  
+Heap:  
+StackOfSymTable: v=8 
+
+ProceduresTable: 
+

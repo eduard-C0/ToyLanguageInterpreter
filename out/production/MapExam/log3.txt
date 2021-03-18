@@ -1,0 +1,320 @@
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=3+5*7;print(x))) (VarDeclaration{name='x', type=int};(x=3+5*7;print(x)))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=3+5*7;print(x))) (x=3+5*7;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=3+5*7;print(x))) (x=3+5*7;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=3+5*7;print(x))) (x=3+5*7;print(x))  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=3+5*7;print(x))) (x=3+5*7;print(x))  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=3+5*7;print(x))) print(x) x=3+5*7  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=3+5*7;print(x))) print(x) x=3+5*7  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=3+5*7;print(x))) print(x)  
+Sym Table: x=38  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=3+5*7;print(x))) print(x)  
+Sym Table: x=38  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=3+5*7;print(x)))  
+Sym Table: x=38  
+Output Console: [38] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=3+5*7;print(x)))  
+Sym Table: x=38  
+Output Console: [38] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=3+5*7;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table: x=38  
+Output Console: [38] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=3+5*7;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table: x=38  
+Output Console: [38] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=3+5*7;print(x))  
+Sym Table: x=38  
+Output Console: [38] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=3+5*7;print(x))  
+Sym Table: x=38  
+Output Console: [38] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x) x=3+5*7  
+Sym Table: x=38  
+Output Console: [38] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x) x=3+5*7  
+Sym Table: x=38  
+Output Console: [38] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x)  
+Sym Table: x=38  
+Output Console: [38] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x)  
+Sym Table: x=38  
+Output Console: [38] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: x=38  
+Output Console: [38, 38] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=3+5*7;print(x)))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (x=3+5*7;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (x=3+5*7;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (x=3+5*7;print(x))  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (x=3+5*7;print(x))  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(x) x=3+5*7  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(x) x=3+5*7  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(x)  
+Sym Table: x=38  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(x)  
+Sym Table: x=38  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack:  
+Sym Table: x=38  
+Output Console: [38] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(x=3+5*7;print(x)))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=3+5*7;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=3+5*7;print(x)) VarDeclaration{name='x', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=3+5*7;print(x))  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (x=3+5*7;print(x))  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x) x=3+5*7  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x) x=3+5*7  
+Sym Table: x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x)  
+Sym Table: x=38  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(x)  
+Sym Table: x=38  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: x=38  
+Output Console: [38] 
+File Table:  
+Heap:  
+

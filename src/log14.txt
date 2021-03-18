@@ -1,0 +1,738 @@
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='a', type=int};(VarDeclaration{name='b', type=int};(VarDeclaration{name='c', type=int};(a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))))))))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='b', type=int};(VarDeclaration{name='c', type=int};(a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))))))) VarDeclaration{name='a', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='b', type=int};(VarDeclaration{name='c', type=int};(a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))))))) VarDeclaration{name='a', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='b', type=int};(VarDeclaration{name='c', type=int};(a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300)))))))  
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='b', type=int};(VarDeclaration{name='c', type=int};(a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300)))))))  
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='c', type=int};(a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300)))))) VarDeclaration{name='b', type=int}  
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='c', type=int};(a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300)))))) VarDeclaration{name='b', type=int}  
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='c', type=int};(a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))))))  
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='c', type=int};(a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))))))  
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))))) VarDeclaration{name='c', type=int}  
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))))) VarDeclaration{name='c', type=int}  
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300)))))  
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300)))))  
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300)))) a=1  
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300)))) a=1  
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))))  
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))))  
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))) b=2  
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))) b=2  
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300)))  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300)))  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300)) c=5  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300)) c=5  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))  
+Sym Table: a=1 b=2 c=5  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))  
+Sym Table: a=1 b=2 c=5  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(300) switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) )  
+Sym Table: a=1 b=2 c=5  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(300) switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) )  
+Sym Table: a=1 b=2 c=5  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(300) (print(a);print(b))  
+Sym Table: a=1 b=2 c=5  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(300) (print(a);print(b))  
+Sym Table: a=1 b=2 c=5  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(300) print(b) print(a)  
+Sym Table: a=1 b=2 c=5  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(300) print(b) print(a)  
+Sym Table: a=1 b=2 c=5  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(300) print(b)  
+Sym Table: a=1 b=2 c=5  
+Output Console: [1] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(300) print(b)  
+Sym Table: a=1 b=2 c=5  
+Output Console: [1] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(300)  
+Sym Table: a=1 b=2 c=5  
+Output Console: [1, 2] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(300)  
+Sym Table: a=1 b=2 c=5  
+Output Console: [1, 2] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: a=1 b=2 c=5  
+Output Console: [1, 2, 300] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='a', type=int};(VarDeclaration{name='b', type=int};(VarDeclaration{name='c', type=int};(a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))))))))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='b', type=int};(VarDeclaration{name='c', type=int};(a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))))))) VarDeclaration{name='a', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='b', type=int};(VarDeclaration{name='c', type=int};(a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))))))) VarDeclaration{name='a', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='b', type=int};(VarDeclaration{name='c', type=int};(a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300)))))))  
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='b', type=int};(VarDeclaration{name='c', type=int};(a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300)))))))  
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='c', type=int};(a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300)))))) VarDeclaration{name='b', type=int}  
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='c', type=int};(a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300)))))) VarDeclaration{name='b', type=int}  
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='c', type=int};(a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))))))  
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='c', type=int};(a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))))))  
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))))) VarDeclaration{name='c', type=int}  
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))))) VarDeclaration{name='c', type=int}  
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300)))))  
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (a=1;(b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300)))))  
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300)))) a=1  
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300)))) a=1  
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))))  
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (b=2;(c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))))  
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))) b=2  
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))) b=2  
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300)))  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (c=5;(switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300)))  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300)) c=5  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300)) c=5  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))  
+Sym Table: a=1 b=2 c=5  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) );print(300))  
+Sym Table: a=1 b=2 c=5  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(300) switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) )  
+Sym Table: a=1 b=2 c=5  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(300) switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(300)))
+(default print(300) )  
+Sym Table: a=1 b=2 c=5  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(300) (print(a);print(b))  
+Sym Table: a=1 b=2 c=5  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(300) (print(a);print(b))  
+Sym Table: a=1 b=2 c=5  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(300) print(b) print(a)  
+Sym Table: a=1 b=2 c=5  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(300) print(b) print(a)  
+Sym Table: a=1 b=2 c=5  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(300) print(b)  
+Sym Table: a=1 b=2 c=5  
+Output Console: [1] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(300) print(b)  
+Sym Table: a=1 b=2 c=5  
+Output Console: [1] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(300)  
+Sym Table: a=1 b=2 c=5  
+Output Console: [1, 2] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(300)  
+Sym Table: a=1 b=2 c=5  
+Output Console: [1, 2] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack:  
+Sym Table: a=1 b=2 c=5  
+Output Console: [1, 2, 300] 
+File Table:  
+Heap:  
+

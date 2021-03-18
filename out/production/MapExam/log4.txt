@@ -1,0 +1,3312 @@
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=test.txt  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=test.txt  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))) VarDeclaration{name='x', type=int}  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))) VarDeclaration{name='x', type=int}  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (print(x);CloseReadFile(fileName)) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (print(x);CloseReadFile(fileName)) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (print(x);CloseReadFile(fileName))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (print(x);CloseReadFile(fileName))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) CloseReadFile(fileName) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) CloseReadFile(fileName) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) CloseReadFile(fileName)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) CloseReadFile(fileName)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=test.txt  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=test.txt  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))) VarDeclaration{name='x', type=int}  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))) VarDeclaration{name='x', type=int}  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);CloseReadFile(fileName)) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);CloseReadFile(fileName)) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);CloseReadFile(fileName))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);CloseReadFile(fileName))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: CloseReadFile(fileName) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: CloseReadFile(fileName) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: CloseReadFile(fileName)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0, 0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: CloseReadFile(fileName)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0, 0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0, 0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=test.txt  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=test.txt  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))) VarDeclaration{name='x', type=int}  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))) VarDeclaration{name='x', type=int}  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (print(x);CloseReadFile(fileName)) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (print(x);CloseReadFile(fileName)) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (print(x);CloseReadFile(fileName))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (print(x);CloseReadFile(fileName))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) CloseReadFile(fileName) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) CloseReadFile(fileName) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) CloseReadFile(fileName)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) CloseReadFile(fileName)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=test.txt  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=test.txt  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=test.txt  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=test.txt  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))) VarDeclaration{name='x', type=int}  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))) VarDeclaration{name='x', type=int}  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (print(x);CloseReadFile(fileName)) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (print(x);CloseReadFile(fileName)) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (print(x);CloseReadFile(fileName))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) (print(x);CloseReadFile(fileName))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) CloseReadFile(fileName) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) CloseReadFile(fileName) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) CloseReadFile(fileName)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))) CloseReadFile(fileName)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=test.txt  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=test.txt  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))) VarDeclaration{name='x', type=int}  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))) VarDeclaration{name='x', type=int}  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);CloseReadFile(fileName)) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);CloseReadFile(fileName)) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);CloseReadFile(fileName))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);CloseReadFile(fileName))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: CloseReadFile(fileName) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: CloseReadFile(fileName) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: CloseReadFile(fileName)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0, 0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: CloseReadFile(fileName)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0, 0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0, 0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=test.txt  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=test.txt  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))) VarDeclaration{name='x', type=int}  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))) VarDeclaration{name='x', type=int}  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);CloseReadFile(fileName)) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);CloseReadFile(fileName)) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);CloseReadFile(fileName))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=test.txt  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=test.txt  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))) VarDeclaration{name='x', type=int}  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))) VarDeclaration{name='x', type=int}  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);CloseReadFile(fileName)) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);CloseReadFile(fileName)) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);CloseReadFile(fileName))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);CloseReadFile(fileName))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: CloseReadFile(fileName) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: CloseReadFile(fileName) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: CloseReadFile(fileName)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: CloseReadFile(fileName)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (fileName=test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=test.txt  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=test.txt  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))) VarDeclaration{name='x', type=int}  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))) VarDeclaration{name='x', type=int}  
+Sym Table: fileName=test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);CloseReadFile(fileName)) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);CloseReadFile(fileName)) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);CloseReadFile(fileName))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);CloseReadFile(fileName))  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: CloseReadFile(fileName) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: CloseReadFile(fileName) print(x)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: CloseReadFile(fileName)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: CloseReadFile(fileName)  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: fileName=test.txt x=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@b7d6a82  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@b7d6a82  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))) VarDeclaration{name='x', type=int}  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@b7d6a82  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))) VarDeclaration{name='x', type=int}  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@b7d6a82  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=0  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@b7d6a82  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=0  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@b7d6a82  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=0  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@b7d6a82  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=0  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@b7d6a82  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@b7d6a82  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@b7d6a82  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))) print(x)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@b7d6a82  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))) print(x)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@b7d6a82  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@b7d6a82  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@b7d6a82  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);CloseReadFile(fileName)) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@b7d6a82  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);CloseReadFile(fileName)) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@b7d6a82  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);CloseReadFile(fileName))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@b7d6a82  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(x);CloseReadFile(fileName))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@b7d6a82  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: CloseReadFile(fileName) print(x)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@b7d6a82  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: CloseReadFile(fileName) print(x)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@b7d6a82  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: CloseReadFile(fileName)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54, 65] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@b7d6a82  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: CloseReadFile(fileName)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54, 65] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@b7d6a82  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54, 65] 
+File Table:  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@7c1bdda  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@7c1bdda  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))) VarDeclaration{name='x', type=int}  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@7c1bdda  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))) VarDeclaration{name='x', type=int}  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@7c1bdda  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=0  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@7c1bdda  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=0  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@7c1bdda  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=0  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@7c1bdda  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=0  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@7c1bdda  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@7c1bdda  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@7c1bdda  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))) print(x)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@7c1bdda  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))) print(x)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@7c1bdda  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@7c1bdda  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@7c1bdda  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (print(x);CloseReadFile(fileName)) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@7c1bdda  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (print(x);CloseReadFile(fileName)) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@7c1bdda  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (print(x);CloseReadFile(fileName))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@7c1bdda  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: (print(x);CloseReadFile(fileName))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@7c1bdda  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: CloseReadFile(fileName) print(x)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@7c1bdda  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: CloseReadFile(fileName) print(x)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@7c1bdda  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: CloseReadFile(fileName)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54, 65] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@7c1bdda  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack: CloseReadFile(fileName)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54, 65] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@7c1bdda  
+Heap:  
+
+Program state
+ID: 6 
+Exe Stack:  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54, 65] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@65e92edd  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@65e92edd  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))) VarDeclaration{name='x', type=int}  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@65e92edd  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))) VarDeclaration{name='x', type=int}  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@65e92edd  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=0  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@65e92edd  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=0  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@65e92edd  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=0  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@65e92edd  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=0  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@65e92edd  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@65e92edd  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@65e92edd  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))) print(x)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@65e92edd  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))) print(x)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@65e92edd  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@65e92edd  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@65e92edd  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (print(x);CloseReadFile(fileName)) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@65e92edd  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (print(x);CloseReadFile(fileName)) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@65e92edd  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (print(x);CloseReadFile(fileName))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@65e92edd  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (print(x);CloseReadFile(fileName))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@65e92edd  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: CloseReadFile(fileName) print(x)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@65e92edd  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: CloseReadFile(fileName) print(x)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@65e92edd  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: CloseReadFile(fileName)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54, 65] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@65e92edd  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: CloseReadFile(fileName)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54, 65] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@65e92edd  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack:  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54, 65] 
+File Table:  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (VarDeclaration{name='fileName', type=string};(fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))) VarDeclaration{name='fileName', type=string}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt;(OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))))  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))) fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Sym Table: fileName=  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (OpenReadFile(fileName);(VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))) OpenReadFile(fileName)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@73707861  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (VarDeclaration{name='x', type=int};(ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@73707861  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))) VarDeclaration{name='x', type=int}  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@73707861  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))) VarDeclaration{name='x', type=int}  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@73707861  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=0  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@73707861  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=0  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@73707861  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=0  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@73707861  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=0  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@73707861  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@73707861  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (print(x);(ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@73707861  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))) print(x)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@73707861  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName))) print(x)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@73707861  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@73707861  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (ReadFileStmt( expression fileName into varName x;(print(x);CloseReadFile(fileName)))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@73707861  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (print(x);CloseReadFile(fileName)) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@73707861  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (print(x);CloseReadFile(fileName)) ReadFileStmt( expression fileName into varName x  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=54  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@73707861  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (print(x);CloseReadFile(fileName))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@73707861  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: (print(x);CloseReadFile(fileName))  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@73707861  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: CloseReadFile(fileName) print(x)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@73707861  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: CloseReadFile(fileName) print(x)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@73707861  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: CloseReadFile(fileName)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54, 65] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@73707861  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack: CloseReadFile(fileName)  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54, 65] 
+File Table: C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt=java.io.BufferedReader@73707861  
+Heap:  
+
+Program state
+ID: 5 
+Exe Stack:  
+Sym Table: fileName=C:\Users\User\Desktop\An2\Semestrul3\hello\src\test.txt x=65  
+Output Console: [54, 65] 
+File Table:  
+Heap:  
+

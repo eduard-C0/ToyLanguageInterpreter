@@ -1,0 +1,2498 @@
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='a', type=int};(VarDeclaration{name='b', type=int};(VarDeclaration{name='c', type=int};(a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c)))))))))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='b', type=int};(VarDeclaration{name='c', type=int};(a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c)))))))) VarDeclaration{name='a', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='b', type=int};(VarDeclaration{name='c', type=int};(a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c)))))))) VarDeclaration{name='a', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='b', type=int};(VarDeclaration{name='c', type=int};(a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c))))))))  
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='b', type=int};(VarDeclaration{name='c', type=int};(a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c))))))))  
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='c', type=int};(a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c))))))) VarDeclaration{name='b', type=int}  
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='c', type=int};(a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c))))))) VarDeclaration{name='b', type=int}  
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='c', type=int};(a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c)))))))  
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='c', type=int};(a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c)))))))  
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c)))))) VarDeclaration{name='c', type=int}  
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c)))))) VarDeclaration{name='c', type=int}  
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c))))))  
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c))))))  
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c))))) a=1  
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c))))) a=1  
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c)))))  
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c)))))  
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c)))) b=2  
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c)))) b=2  
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c))))  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c))))  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(c);(c = b-2 ? 100 : 200;print(c))) c = a ? 100 : 200  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(c);(c = b-2 ? 100 : 200;print(c))) c = a ? 100 : 200  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(c);(c = b-2 ? 100 : 200;print(c))) if (a) then {c=100} else {c=200}  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(c);(c = b-2 ? 100 : 200;print(c))) if (a) then {c=100} else {c=200}  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(c);(c = b-2 ? 100 : 200;print(c)))  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(c);(c = b-2 ? 100 : 200;print(c)))  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (c = b-2 ? 100 : 200;print(c)) print(c)  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (c = b-2 ? 100 : 200;print(c)) print(c)  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (c = b-2 ? 100 : 200;print(c))  
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (c = b-2 ? 100 : 200;print(c))  
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(c) c = b-2 ? 100 : 200  
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(c) c = b-2 ? 100 : 200  
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(c) if (b-2) then {c=100} else {c=200}  
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(c) if (b-2) then {c=100} else {c=200}  
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(c)  
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(c)  
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: a=1 b=2 c=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='a', type=int};(VarDeclaration{name='b', type=int};(VarDeclaration{name='c', type=int};(a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c)))))))))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='b', type=int};(VarDeclaration{name='c', type=int};(a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c)))))))) VarDeclaration{name='a', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='b', type=int};(VarDeclaration{name='c', type=int};(a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c)))))))) VarDeclaration{name='a', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='b', type=int};(VarDeclaration{name='c', type=int};(a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c))))))))  
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='b', type=int};(VarDeclaration{name='c', type=int};(a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c))))))))  
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='c', type=int};(a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c))))))) VarDeclaration{name='b', type=int}  
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='c', type=int};(a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c))))))) VarDeclaration{name='b', type=int}  
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='c', type=int};(a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c)))))))  
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='c', type=int};(a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c)))))))  
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c)))))) VarDeclaration{name='c', type=int}  
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c)))))) VarDeclaration{name='c', type=int}  
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c))))))  
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (a=1;(b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c))))))  
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c))))) a=1  
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c))))) a=1  
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c)))))  
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (b=2;(c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c)))))  
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c)))) b=2  
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c)))) b=2  
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c))))  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (c = a ? 100 : 200;(print(c);(c = b-2 ? 100 : 200;print(c))))  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(c);(c = b-2 ? 100 : 200;print(c))) c = a ? 100 : 200  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(c);(c = b-2 ? 100 : 200;print(c))) c = a ? 100 : 200  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(c);(c = b-2 ? 100 : 200;print(c))) if (a) then {c=100} else {c=200}  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(c);(c = b-2 ? 100 : 200;print(c))) if (a) then {c=100} else {c=200}  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(c);(c = b-2 ? 100 : 200;print(c)))  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (print(c);(c = b-2 ? 100 : 200;print(c)))  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (c = b-2 ? 100 : 200;print(c)) print(c)  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (c = b-2 ? 100 : 200;print(c)) print(c)  
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (c = b-2 ? 100 : 200;print(c))  
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (c = b-2 ? 100 : 200;print(c))  
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(c) c = b-2 ? 100 : 200  
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(c) c = b-2 ? 100 : 200  
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(c) if (b-2) then {c=100} else {c=200}  
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(c) if (b-2) then {c=100} else {c=200}  
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(c)  
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(c)  
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: a=1 b=2 c=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='a', type=int}
+VarDeclaration{name='b', type=int}
+VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: null 
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='a', type=int}
+VarDeclaration{name='b', type=int}
+VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: null 
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='a', type=int}
+VarDeclaration{name='b', type=int}
+VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: null 
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='b', type=int}
+VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='b', type=int}
+VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='b', type=int}
+VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='b', type=int}
+VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 b=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 b=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 b=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 b=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 b=0 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 b=0 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 b=0 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 b=0 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=0 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=0 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=0 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=0 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: if (a) then {c=100} else {c=200}
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: if (a) then {c=100} else {c=200}
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: c = b-2 ? 100 : 200
+print(c)
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: c = b-2 ? 100 : 200
+print(c)
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: if (b-2) then {c=100} else {c=200}
+print(c)
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: if (b-2) then {c=100} else {c=200}
+print(c)
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(c)
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(c)
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: a=1 b=2 c=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='a', type=int}
+VarDeclaration{name='b', type=int}
+VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: null 
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='a', type=int}
+VarDeclaration{name='b', type=int}
+VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: null 
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='a', type=int}
+VarDeclaration{name='b', type=int}
+VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: null 
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='b', type=int}
+VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='b', type=int}
+VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='b', type=int}
+VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='b', type=int}
+VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 b=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 b=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 b=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 b=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 b=0 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 b=0 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 b=0 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 b=0 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=0 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=0 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=0 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=0 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: if (a) then {c=100} else {c=200}
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: if (a) then {c=100} else {c=200}
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: c = b-2 ? 100 : 200
+print(c)
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: c = b-2 ? 100 : 200
+print(c)
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: if (b-2) then {c=100} else {c=200}
+print(c)
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: if (b-2) then {c=100} else {c=200}
+print(c)
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(c)
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack: print(c)
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: a=1 b=2 c=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: VarDeclaration{name='a', type=int}
+VarDeclaration{name='b', type=int}
+VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: null 
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: VarDeclaration{name='a', type=int}
+VarDeclaration{name='b', type=int}
+VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: null 
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: VarDeclaration{name='a', type=int}
+VarDeclaration{name='b', type=int}
+VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: null 
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: VarDeclaration{name='b', type=int}
+VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: VarDeclaration{name='b', type=int}
+VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: VarDeclaration{name='b', type=int}
+VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: VarDeclaration{name='b', type=int}
+VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 b=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 b=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 b=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: VarDeclaration{name='c', type=int}
+a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0 b=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 b=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 b=0 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 b=0 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 b=0 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: a=1
+b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=0 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=0 b=0 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=0 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=0 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=0 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: b=2
+c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=0 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=0 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: c = a ? 100 : 200
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: if (a) then {c=100} else {c=200}
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: if (a) then {c=100} else {c=200}
+print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: print(c)
+c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: c = b-2 ? 100 : 200
+print(c)
+
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: c = b-2 ? 100 : 200
+print(c)
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: c = b-2 ? 100 : 200
+print(c)
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: if (b-2) then {c=100} else {c=200}
+print(c)
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: if (b-2) then {c=100} else {c=200}
+print(c)
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: print(c)
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack: print(c)
+ 
+Sym Table: a=1 b=2 c=0  
+Output Console: [0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+
+Program state
+ID: 2 
+Exe Stack:  
+Sym Table: a=1 b=2 c=0  
+Output Console: [0, 0] 
+File Table:  
+Heap:  
+StackOfSymTable: a=1 b=2 c=0 
+
+ProceduresTable: 
+

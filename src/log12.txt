@@ -1,0 +1,1840 @@
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='v', type=int};(v=10;(Sleep(10);print(v*10))))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v=10;(Sleep(10);print(v*10))) VarDeclaration{name='v', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v=10;(Sleep(10);print(v*10))) VarDeclaration{name='v', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v=10;(Sleep(10);print(v*10)))  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v=10;(Sleep(10);print(v*10)))  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Sleep(10);print(v*10)) v=10  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Sleep(10);print(v*10)) v=10  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Sleep(10);print(v*10))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Sleep(10);print(v*10))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(10)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(10)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(9)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(9)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(8)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(8)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(7)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(7)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(6)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(6)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(5)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(5)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(4)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(4)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(3)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(3)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(2)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(2)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(1)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(1)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(0)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(0)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: v=10  
+Output Console: [100] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='v', type=int};(v=10;(Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10)))))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v=10;(Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10)))) VarDeclaration{name='v', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v=10;(Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10)))) VarDeclaration{name='v', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v=10;(Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10))))  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v=10;(Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10))))  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10))) v=10  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10))) v=10  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10)))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10)))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Sleep(10);print(v*10)) Fork((v=v-1;(v=v-1;print(v))))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Sleep(10);print(v*10)) Fork((v=v-1;(v=v-1;print(v))))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Sleep(10);print(v*10))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v=v-1;(v=v-1;print(v)))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Sleep(10);print(v*10))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v=v-1;(v=v-1;print(v)))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(10)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v=v-1;print(v)) v=v-1  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(10)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v=v-1;print(v)) v=v-1  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(9)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v=v-1;print(v))  
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(9)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v=v-1;print(v))  
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(8)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v) v=v-1  
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(8)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v) v=v-1  
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(7)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v)  
+Sym Table: v=8  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(7)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v)  
+Sym Table: v=8  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(6)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack:  
+Sym Table: v=8  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(6)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(5)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(5)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(4)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(4)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(3)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(3)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(2)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(2)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(1)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(1)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(0)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(0)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: v=10  
+Output Console: [8, 100] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='v', type=int};(v=10;(Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10)))))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v=10;(Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10)))) VarDeclaration{name='v', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v=10;(Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10)))) VarDeclaration{name='v', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v=10;(Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10))))  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v=10;(Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10))))  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10))) v=10  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10))) v=10  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10)))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10)))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (Sleep(10);print(v*10)) Fork((v=v-1;(v=v-1;print(v))))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (Sleep(10);print(v*10)) Fork((v=v-1;(v=v-1;print(v))))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (Sleep(10);print(v*10))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (v=v-1;(v=v-1;print(v)))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (Sleep(10);print(v*10))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (v=v-1;(v=v-1;print(v)))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v*10) Sleep(10)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (v=v-1;print(v)) v=v-1  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v*10) Sleep(10)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (v=v-1;print(v)) v=v-1  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v*10) Sleep(9)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (v=v-1;print(v))  
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v*10) Sleep(9)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (v=v-1;print(v))  
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v*10) Sleep(8)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: print(v) v=v-1  
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v*10) Sleep(8)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: print(v) v=v-1  
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v*10) Sleep(7)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: print(v)  
+Sym Table: v=8  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v*10) Sleep(7)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: print(v)  
+Sym Table: v=8  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v*10) Sleep(6)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack:  
+Sym Table: v=8  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v*10) Sleep(6)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v*10) Sleep(5)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v*10) Sleep(5)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v*10) Sleep(4)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v*10) Sleep(4)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v*10) Sleep(3)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v*10) Sleep(3)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v*10) Sleep(2)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v*10) Sleep(2)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v*10) Sleep(1)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v*10) Sleep(1)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v*10) Sleep(0)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v*10) Sleep(0)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v*10)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v*10)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack:  
+Sym Table: v=10  
+Output Console: [8, 100] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='v', type=int};(v=10;(Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10)))))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v=10;(Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10)))) VarDeclaration{name='v', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v=10;(Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10)))) VarDeclaration{name='v', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v=10;(Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10))))  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v=10;(Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10))))  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10))) v=10  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10))) v=10  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10)))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10)))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Sleep(10);print(v*10)) Fork((v=v-1;(v=v-1;print(v))))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Sleep(10);print(v*10)) Fork((v=v-1;(v=v-1;print(v))))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Sleep(10);print(v*10))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v=v-1;(v=v-1;print(v)))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Sleep(10);print(v*10))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v=v-1;(v=v-1;print(v)))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(10)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v=v-1;print(v)) v=v-1  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(10)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v=v-1;print(v)) v=v-1  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(9)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v=v-1;print(v))  
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(9)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v=v-1;print(v))  
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(8)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v) v=v-1  
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(8)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v) v=v-1  
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(7)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v)  
+Sym Table: v=8  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(7)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v)  
+Sym Table: v=8  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(6)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack:  
+Sym Table: v=8  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(6)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(5)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(5)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(4)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(4)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(3)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(3)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(2)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(2)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(1)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(1)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(0)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(0)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: v=10  
+Output Console: [8, 100] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='v', type=int};(v=10;(Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10)))))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v=10;(Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10)))) VarDeclaration{name='v', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v=10;(Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10)))) VarDeclaration{name='v', type=int}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v=10;(Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10))))  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v=10;(Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10))))  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10))) v=10  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10))) v=10  
+Sym Table: v=0  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10)))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Fork((v=v-1;(v=v-1;print(v))));(Sleep(10);print(v*10)))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Sleep(10);print(v*10)) Fork((v=v-1;(v=v-1;print(v))))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Sleep(10);print(v*10)) Fork((v=v-1;(v=v-1;print(v))))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Sleep(10);print(v*10))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v=v-1;(v=v-1;print(v)))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (Sleep(10);print(v*10))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v=v-1;(v=v-1;print(v)))  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(10)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v=v-1;print(v)) v=v-1  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(10)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v=v-1;print(v)) v=v-1  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(9)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v=v-1;print(v))  
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(9)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v=v-1;print(v))  
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(8)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v) v=v-1  
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(8)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v) v=v-1  
+Sym Table: v=9  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(7)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v)  
+Sym Table: v=8  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(7)  
+Sym Table: v=10  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: print(v)  
+Sym Table: v=8  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(6)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack:  
+Sym Table: v=8  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(6)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(5)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(5)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(4)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(4)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(3)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(3)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(2)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(2)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(1)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(1)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(0)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10) Sleep(0)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v*10)  
+Sym Table: v=10  
+Output Console: [8] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: v=10  
+Output Console: [8, 100] 
+File Table:  
+Heap:  
+

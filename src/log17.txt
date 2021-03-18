@@ -1,0 +1,320 @@
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='v', type=Boolean};(v = true ? false : true;print(v)))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v = true ? false : true;print(v)) VarDeclaration{name='v', type=Boolean}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v = true ? false : true;print(v)) VarDeclaration{name='v', type=Boolean}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v = true ? false : true;print(v))  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v = true ? false : true;print(v))  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v) v = true ? false : true  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v) v = true ? false : true  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v) if (true) then {v=false} else {v=true}  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v) if (true) then {v=false} else {v=true}  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v) v=false  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v) v=false  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v)  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v)  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: v=false  
+Output Console: [false] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (VarDeclaration{name='v', type=Boolean};(v = true ? false : true;print(v)))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v = true ? false : true;print(v)) VarDeclaration{name='v', type=Boolean}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v = true ? false : true;print(v)) VarDeclaration{name='v', type=Boolean}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 2 
+Exe Stack: (v = true ? false : true;print(v))  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (VarDeclaration{name='v', type=Boolean};(v = true ? false : true;print(v)))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (v = true ? false : true;print(v)) VarDeclaration{name='v', type=Boolean}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (v = true ? false : true;print(v)) VarDeclaration{name='v', type=Boolean}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (v = true ? false : true;print(v))  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: (v = true ? false : true;print(v))  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: print(v) v = true ? false : true  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: print(v) v = true ? false : true  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: print(v) if (true) then {v=false} else {v=true}  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: print(v) if (true) then {v=false} else {v=true}  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: print(v) v=false  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: print(v) v=false  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: print(v)  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack: print(v)  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 3 
+Exe Stack:  
+Sym Table: v=false  
+Output Console: [false] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='v', type=Boolean};(v = true ? false : true;print(v)))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v = true ? false : true;print(v)) VarDeclaration{name='v', type=Boolean}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v = true ? false : true;print(v)) VarDeclaration{name='v', type=Boolean}  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v = true ? false : true;print(v))  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: (v = true ? false : true;print(v))  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v) v = true ? false : true  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v) v = true ? false : true  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 1 
+Exe Stack: print(v) if (true) then {v=false} else {v=true}  
+Sym Table: v=false  
+Output Console: [] 
+File Table:  
+Heap:  
+

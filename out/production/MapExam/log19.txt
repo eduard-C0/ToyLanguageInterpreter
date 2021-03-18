@@ -1,0 +1,181 @@
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='v1', type=Reference(int) };(VarDeclaration{name='x', type=int};NewLockStmt(x)))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};NewLockStmt(x)) VarDeclaration{name='v1', type=Reference(int) }  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};NewLockStmt(x)) VarDeclaration{name='v1', type=Reference(int) }  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};NewLockStmt(x))  
+Sym Table: v1=(0, int)  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};NewLockStmt(x))  
+Sym Table: v1=(0, int)  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+
+Program state
+ID: 1 
+Exe Stack: NewLockStmt(x) VarDeclaration{name='x', type=int}  
+Sym Table: v1=(0, int)  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+
+Program state
+ID: 1 
+Exe Stack: NewLockStmt(x) VarDeclaration{name='x', type=int}  
+Sym Table: v1=(0, int)  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+
+Program state
+ID: 1 
+Exe Stack: NewLockStmt(x)  
+Sym Table: x=0 v1=(0, int)  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+
+Program state
+ID: 1 
+Exe Stack: NewLockStmt(x)  
+Sym Table: x=0 v1=(0, int)  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: x=0 v1=(0, int)  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='v1', type=Reference(int) };(VarDeclaration{name='x', type=int};NewLockStmt(x)))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};NewLockStmt(x)) VarDeclaration{name='v1', type=Reference(int) }  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};NewLockStmt(x)) VarDeclaration{name='v1', type=Reference(int) }  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};NewLockStmt(x))  
+Sym Table: v1=(0, int)  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+
+Program state
+ID: 1 
+Exe Stack: (VarDeclaration{name='x', type=int};NewLockStmt(x))  
+Sym Table: v1=(0, int)  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+
+Program state
+ID: 1 
+Exe Stack: NewLockStmt(x) VarDeclaration{name='x', type=int}  
+Sym Table: v1=(0, int)  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+
+Program state
+ID: 1 
+Exe Stack: NewLockStmt(x) VarDeclaration{name='x', type=int}  
+Sym Table: v1=(0, int)  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+
+Program state
+ID: 1 
+Exe Stack: NewLockStmt(x)  
+Sym Table: x=0 v1=(0, int)  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+
+Program state
+ID: 1 
+Exe Stack: NewLockStmt(x)  
+Sym Table: x=0 v1=(0, int)  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 
+
+Program state
+ID: 1 
+Exe Stack:  
+Sym Table: x=1 v1=(0, int)  
+Output Console: [] 
+File Table:  
+Heap:  
+LockTable: 1->-1
+
+

@@ -1,0 +1,398 @@
+Program state
+ID: 4 
+Exe Stack: (VarDeclaration{name='v', type=Reference(int) };(New(v, 20);(VarDeclaration{name='a', type=Reference(int) };(New(a, 25);(New(v, 30);print(ReadHeap(v)))))))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (New(v, 20);(VarDeclaration{name='a', type=Reference(int) };(New(a, 25);(New(v, 30);print(ReadHeap(v)))))) VarDeclaration{name='v', type=Reference(int) }  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (New(v, 20);(VarDeclaration{name='a', type=Reference(int) };(New(a, 25);(New(v, 30);print(ReadHeap(v)))))) VarDeclaration{name='v', type=Reference(int) }  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (New(v, 20);(VarDeclaration{name='a', type=Reference(int) };(New(a, 25);(New(v, 30);print(ReadHeap(v))))))  
+Sym Table: v=(0, int)  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (New(v, 20);(VarDeclaration{name='a', type=Reference(int) };(New(a, 25);(New(v, 30);print(ReadHeap(v))))))  
+Sym Table: v=(0, int)  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (VarDeclaration{name='a', type=Reference(int) };(New(a, 25);(New(v, 30);print(ReadHeap(v))))) New(v, 20)  
+Sym Table: v=(0, int)  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (VarDeclaration{name='a', type=Reference(int) };(New(a, 25);(New(v, 30);print(ReadHeap(v))))) New(v, 20)  
+Sym Table: v=(0, int)  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (VarDeclaration{name='a', type=Reference(int) };(New(a, 25);(New(v, 30);print(ReadHeap(v)))))  
+Sym Table: v=(1, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+ 
+
+Program state
+ID: 4 
+Exe Stack: (VarDeclaration{name='a', type=Reference(int) };(New(a, 25);(New(v, 30);print(ReadHeap(v)))))  
+Sym Table: v=(1, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+ 
+
+Program state
+ID: 4 
+Exe Stack: (New(a, 25);(New(v, 30);print(ReadHeap(v)))) VarDeclaration{name='a', type=Reference(int) }  
+Sym Table: v=(1, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+ 
+
+Program state
+ID: 4 
+Exe Stack: (New(a, 25);(New(v, 30);print(ReadHeap(v)))) VarDeclaration{name='a', type=Reference(int) }  
+Sym Table: v=(1, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+ 
+
+Program state
+ID: 4 
+Exe Stack: (New(a, 25);(New(v, 30);print(ReadHeap(v))))  
+Sym Table: a=(0, int) v=(1, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+ 
+
+Program state
+ID: 4 
+Exe Stack: (New(a, 25);(New(v, 30);print(ReadHeap(v))))  
+Sym Table: a=(0, int) v=(1, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+ 
+
+Program state
+ID: 4 
+Exe Stack: (New(v, 30);print(ReadHeap(v))) New(a, 25)  
+Sym Table: a=(0, int) v=(1, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+ 
+
+Program state
+ID: 4 
+Exe Stack: (New(v, 30);print(ReadHeap(v))) New(a, 25)  
+Sym Table: a=(0, int) v=(1, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+ 
+
+Program state
+ID: 4 
+Exe Stack: (New(v, 30);print(ReadHeap(v)))  
+Sym Table: a=(2, int) v=(1, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+2->25
+ 
+
+Program state
+ID: 4 
+Exe Stack: (New(v, 30);print(ReadHeap(v)))  
+Sym Table: a=(2, int) v=(1, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+2->25
+ 
+
+Program state
+ID: 4 
+Exe Stack: print(ReadHeap(v)) New(v, 30)  
+Sym Table: a=(2, int) v=(1, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+2->25
+ 
+
+Program state
+ID: 4 
+Exe Stack: print(ReadHeap(v)) New(v, 30)  
+Sym Table: a=(2, int) v=(1, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+2->25
+ 
+
+Program state
+ID: 4 
+Exe Stack: print(ReadHeap(v))  
+Sym Table: a=(2, int) v=(3, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+2->25
+3->30
+ 
+
+Program state
+ID: 4 
+Exe Stack: print(ReadHeap(v))  
+Sym Table: a=(2, int) v=(3, int)  
+Output Console: [] 
+File Table:  
+Heap: 2->25
+3->30
+ 
+
+Program state
+ID: 4 
+Exe Stack:  
+Sym Table: a=(2, int) v=(3, int)  
+Output Console: [30] 
+File Table:  
+Heap: 2->25
+3->30
+ 
+
+Program state
+ID: 4 
+Exe Stack: (VarDeclaration{name='v', type=Reference(int) };(New(v, 20);(VarDeclaration{name='a', type=Reference(int) };(New(a, 25);(New(v, 30);print(ReadHeap(v)))))))  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (New(v, 20);(VarDeclaration{name='a', type=Reference(int) };(New(a, 25);(New(v, 30);print(ReadHeap(v)))))) VarDeclaration{name='v', type=Reference(int) }  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (New(v, 20);(VarDeclaration{name='a', type=Reference(int) };(New(a, 25);(New(v, 30);print(ReadHeap(v)))))) VarDeclaration{name='v', type=Reference(int) }  
+Sym Table:  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (New(v, 20);(VarDeclaration{name='a', type=Reference(int) };(New(a, 25);(New(v, 30);print(ReadHeap(v))))))  
+Sym Table: v=(0, int)  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (New(v, 20);(VarDeclaration{name='a', type=Reference(int) };(New(a, 25);(New(v, 30);print(ReadHeap(v))))))  
+Sym Table: v=(0, int)  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (VarDeclaration{name='a', type=Reference(int) };(New(a, 25);(New(v, 30);print(ReadHeap(v))))) New(v, 20)  
+Sym Table: v=(0, int)  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (VarDeclaration{name='a', type=Reference(int) };(New(a, 25);(New(v, 30);print(ReadHeap(v))))) New(v, 20)  
+Sym Table: v=(0, int)  
+Output Console: [] 
+File Table:  
+Heap:  
+
+Program state
+ID: 4 
+Exe Stack: (VarDeclaration{name='a', type=Reference(int) };(New(a, 25);(New(v, 30);print(ReadHeap(v)))))  
+Sym Table: v=(1, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+ 
+
+Program state
+ID: 4 
+Exe Stack: (VarDeclaration{name='a', type=Reference(int) };(New(a, 25);(New(v, 30);print(ReadHeap(v)))))  
+Sym Table: v=(1, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+ 
+
+Program state
+ID: 4 
+Exe Stack: (New(a, 25);(New(v, 30);print(ReadHeap(v)))) VarDeclaration{name='a', type=Reference(int) }  
+Sym Table: v=(1, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+ 
+
+Program state
+ID: 4 
+Exe Stack: (New(a, 25);(New(v, 30);print(ReadHeap(v)))) VarDeclaration{name='a', type=Reference(int) }  
+Sym Table: v=(1, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+ 
+
+Program state
+ID: 4 
+Exe Stack: (New(a, 25);(New(v, 30);print(ReadHeap(v))))  
+Sym Table: a=(0, int) v=(1, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+ 
+
+Program state
+ID: 4 
+Exe Stack: (New(a, 25);(New(v, 30);print(ReadHeap(v))))  
+Sym Table: a=(0, int) v=(1, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+ 
+
+Program state
+ID: 4 
+Exe Stack: (New(v, 30);print(ReadHeap(v))) New(a, 25)  
+Sym Table: a=(0, int) v=(1, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+ 
+
+Program state
+ID: 4 
+Exe Stack: (New(v, 30);print(ReadHeap(v))) New(a, 25)  
+Sym Table: a=(0, int) v=(1, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+ 
+
+Program state
+ID: 4 
+Exe Stack: (New(v, 30);print(ReadHeap(v)))  
+Sym Table: a=(2, int) v=(1, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+2->25
+ 
+
+Program state
+ID: 4 
+Exe Stack: (New(v, 30);print(ReadHeap(v)))  
+Sym Table: a=(2, int) v=(1, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+2->25
+ 
+
+Program state
+ID: 4 
+Exe Stack: print(ReadHeap(v)) New(v, 30)  
+Sym Table: a=(2, int) v=(1, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+2->25
+ 
+
+Program state
+ID: 4 
+Exe Stack: print(ReadHeap(v)) New(v, 30)  
+Sym Table: a=(2, int) v=(1, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+2->25
+ 
+
+Program state
+ID: 4 
+Exe Stack: print(ReadHeap(v))  
+Sym Table: a=(2, int) v=(3, int)  
+Output Console: [] 
+File Table:  
+Heap: 1->20
+2->25
+3->30
+ 
+
+Program state
+ID: 4 
+Exe Stack: print(ReadHeap(v))  
+Sym Table: a=(2, int) v=(3, int)  
+Output Console: [] 
+File Table:  
+Heap: 2->25
+3->30
+ 
+
+Program state
+ID: 4 
+Exe Stack:  
+Sym Table: a=(2, int) v=(3, int)  
+Output Console: [30] 
+File Table:  
+Heap: 2->25
+3->30
+ 
+
